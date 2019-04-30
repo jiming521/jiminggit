@@ -1,0 +1,15 @@
+#x5流程建模平台地址
+#plantform_url=http://172.16.18.79:7010
+plantform_url=http://bpms.casicloud.com
+#x5流程建模平台主页地址
+plantform_page=http://bpms.casicloud.com/main/home
+#cas地址
+#cas_url=http://cas.casicloud.com/login
+#流程操作-启动流程
+operate_startProcess=/restful/flowoperation/start
+#流程操作-流程流转
+operate_doNext=/restful/flowoperation/doNext
+#流程操作-人工终止流程
+operate_doEndProcess=/restful/flowoperation/doEndProcess
+#获取流程实例的审批历史
+operate_getHistoryOpinion=/restful/flowoperation/getHistoryOpinion
